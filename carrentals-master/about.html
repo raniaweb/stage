@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Offseason</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .site-section {
+            background-color: #f9f9f9;
+            padding: 40px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .content {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            max-width: 900px;
+            width: 100%;
+            line-height: 1.6;
+            color: #666;
+            font-family: 'Roboto', sans-serif;
+        }
+        .content h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .content p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        /* Style pour le conteneur du logo */
+.site-logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Style pour l'image du logo */
+.site-logo img {
+    max-height: 50px; /* Ajustez la hauteur maximale selon vos besoins */
+    width: auto; /* Conserve les proportions de l'image */
+    display: block; /* Supprime tout espace blanc en dessous de l'image */
+}
+/* Style pour le mot "offseason" */
+.offseason-text {
+    color: rgb(214, 125, 22); /* Couleur jaune */
+    font-size: 1em; /* Taille de police ajustable selon vos besoins */
+    font-weight: bold; /* Gras */
+     /* Texte en majuscule */
+}
+.logo-text {
+  margin-left: 10px; /* Ajustez la valeur pour obtenir l'espace désiré */ }
+
+.text {
+    color: rgb(224, 75, 6);}
+.container {
+      background-color: rgb(212, 59, 21)
+      ;}
+      .site-menu li {
+            margin-inline-start: 30px; /* Ajustez la valeur selon vos besoins */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .site-section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        h2 {
+            color: rgb(212, 59, 21);
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid rgb(212, 59, 21);
+            display: inline-block;
+        }
+        h3 {
+            color: #880000;
+            font-size: 22px;
+            margin-top: 20px;
+        }
+        p {
+            color: #000000;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .content p:last-child {
+            margin-bottom: 0;
+        }
+        img.img-fluid.rounded {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -15px;
+        }
+        .col-lg-6, .col-lg-4 {
+            padding: 15px;
+        }
+        .col-lg-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .col-lg-4 {
+            flex: 0 0 40%;
+            max-width: 40%;
+            margin-left: auto;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .site-section {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 1100px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .container {
+            max-width: 100%;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+        .navbar {
+            background-color: #333;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .site-menu {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .site-menu li {
+            margin-inline-start: 30px;
+        }
+        .site-menu li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 15px;
+            display: block;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .site-menu li a:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        footer.site-footer {
+            background-color: rgb(212, 59, 21);
+            color: #fff;
+            padding: 40px 0;
+        }
+        footer.site-footer .footer-heading {
+            color: #fff;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        footer.site-footer p {
+            color: #bbb;
+        }
+        footer.site-footer .social li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        footer.site-footer .social li a {
+            color: #fff;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        footer.site-footer .social li a:hover {
+            color: #f9d342;
+        }
+        footer.site-footer .list-unstyled {
+            list-style: none;
+            padding: 0;
+        }
+        footer.site-footer .list-unstyled li {
+            margin-bottom: 10px;
+        }
+        footer.site-footer .list-unstyled li a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer.site-footer .list-unstyled li a:hover {
+            color: rgb(212, 59, 21);
+        }
+        footer.site-footer .border-top {
+            border-top: 1px solid rgb(212, 59, 21);
+            padding-top: 20px;
+        }
+      </style>
+</head>
+
+<body>
+
+    <div class="site-wrap" id="home-section">
+
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+        <header class="site-navbar site-navbar-target" role="banner">
+            <div class="container">
+                <div class="row align-items-center position-relative">
+                  <div class="row align-items-center position-relative">
+                    <div class="col-3">
+                        <div class="site-logo">
+                            <img src="c:\Users\RANIA\Desktop\dd.PNG" alt="CarRental Logo" style="max-height: 50px;">
+                            <a href="index.html" class="logo-text"><strong class="offseason-text">Offseason</strong></a>
+                        </div>
+                    </div>
+                    <div class="col-9 text-right">
+        <span class="d-inline-block d-lg-none"><a href="#" class="site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-black"></span></a></span>
+          <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav ml-auto">
+                  <li><a href="index.html" class="nav-link text-yellow">Home</a></li>
+                  <li><a href="listing.html" class="nav-link text-yellow">Listing</a></li>
+                  <li><a href="testimonials.html" class="nav-link text-yellow">Testimonials</a></li>
+                  <li><a href="blog.html" class="nav-link text-yellow">Blog</a></li>
+                  <li class="active"><a href="about.html" class="nav-link text-yellow">About</a></li>
+                  <li><a href="contact.html" class="nav-link text-yellow">Contact</a></li>
+              </ul>
+          </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="hero inner-page" style="background-image: url('c:\Users\RANIA\Desktop\voiture-de-course.png');">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-5">
+                        <div class="intro">
+                            <h1><strong>About</strong></h1>
+                            <div class="custom-breadcrumbs"><a href="index.html">Home</a> <span class="mx-2">/</span> <strong>About</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-section">
+            <div class="content">
+                <h2>Offseason Tunisie</h2>
+                <h3>À propos de notre agence Offseason</h3>
+                <p>Offseason Tunisie, une entreprise familiale fondée en  2024 avec un capital de , se spécialise dans la location de voitures. Son siège social est situé à l'avenue .</p>
+                <h3>Engagement et Services</h3>
+                <p>Offseason Tunisie s'engage à offrir un service sérieux et professionnel à ses clients, qu'ils soient particuliers, touristes ou professionnels. Nous proposons des véhicules récents et bien entretenus, disponibles dans diverses catégories et modèles. Nos agents expérimentés livrent les voitures à l'endroit et à l'heure convenus, tout en maintenant des prix compétitifs et raisonnables.</p>
+                <p>Aujourd'hui, nous sommes parmi les leaders des loueurs indépendants tunisiens, présents dans tous les aéroports et principales villes du pays.</p>
+                <p>Nous offrons des locations de voitures courtes et longues durées, ainsi qu'un service aux entreprises incluant gestion de parc, maintenance et assurance. Avec notre service «Offseason à domicile», les voitures sont livrées directement au client.</p>
+                <h3>Notre philosophie</h3>
+                <p>Notre devise est : «Notre métier toujours à votre service !». Nous fournissons des conseils personnalisés à chacun de nos clients et restons à leur écoute pour leur offrir les solutions les mieux adaptées à leurs besoins. Nous nous distinguons de nos concurrents par nos produits innovants, notre accueil personnalisé, la qualité de notre service et une livraison incomparable.</p>
+                <h3>Nos Valeurs</h3>
+                <p>Proximité : Nous établissons une relation de confiance et de proximité avec nos clients. La Relation Client est au cœur de notre démarche : «Tous nos collaborateurs et agents considèrent leurs clients comme des partenaires».</p>
+                <p>Satisfaction client : Nous sommes à l'écoute de nos clients 24H/24 et nous sommes capables de répondre à tous leurs besoins, de un à cent véhicules pour une période déterminée. «Il y a un volant pour chaque client».</p>
+                <p>Innovation : Nous nous distinguons par nos idées novatrices et notre volonté constante d'amélioration. Ces dernières années, nous avons lancé plusieurs services innovants, tels que la location de voitures de luxe avec chauffeur, la location longue durée dédiée aux entreprises (LLD), les transferts et navettes aéroportuaires, ainsi que les cartes de fidélité «Offseasond» offrant des réductions significatives.</p>
+                <p>Esprit d'équipe : Notre activité a rapidement triplé de taille grâce à l'engagement de notre équipe. Nos collaborateurs sont très attachés à la marque «Offseason» et considèrent leur travail comme une mission personnelle, effectuée avec respect et sérieux.</p>
+                <p>Solidarité : En tant qu'entreprise humaine et familiale, nous soutenons plusieurs associations caritatives et sommes partenaires de certaines équipes sportives pour démontrer notre engagement dans diverses régions tunisiennes.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+
+    
+              
+               
+        
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <img src="images/hero_1.jpg" alt="Image" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-4 ml-auto">
+            <h2>Notre histoire</h2>
+            <p>Il est très important que le client fasse attention au processus d'adipiscissement. Il déteste entreprendre, rejeter et suivre ses accusateurs plutôt que ceux qui le louent.</p>
+            <p>En raison des plaisirs du corps, les troubles sont souvent évités, qu'en est-il de leur commodité, de la douleur du travail, de la fuite de quelque chose choisi avec lui ?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section bg-primary py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 mb-4 mb-md-0">
+            <h2 class="mb-0 text-white">Qu'est-ce que tu attends?</h2>
+            <p class="mb-0 opa-7">Il est très important que le client fasse attention au processus d'adipiscissement. Aveuglé, laborieux.</p>
+          </div>
+          <div class="col-lg-5 text-md-right">
+            <a href="#" class="btn btn-primary btn-white">Louez une voiture maintenant</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      
+        <footer class="site-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>Louez une voiture maintenant </p>
+                <ul class="list-unstyled social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-8 ml-auto">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <h2 class="footer-heading mb-4">Quick Links</h2>
+                    <ul class="list-unstyled">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Testimonials</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="#">Privacy</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3">
+                    <h2 class="footer-heading mb-4">Resources</h2>
+                    <ul class="list-unstyled">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Testimonials</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="#">Privacy</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3">
+                    <h2 class="footer-heading mb-4">Support</h2>
+                    <ul class="list-unstyled">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Testimonials</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="#">Privacy</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3">
+                    <h2 class="footer-heading mb-4">Company</h2>
+                    <ul class="list-unstyled">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Testimonials</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="#">Privacy</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-5 mt-5 text-center">
+              <div class="col-md-12">
+                <div class="border-top pt-5">
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
+
